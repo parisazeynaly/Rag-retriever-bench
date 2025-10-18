@@ -1,0 +1,5 @@
+config,hit@10,delta_vs_best
+best (hybrid+rerank+hyde),0.71,0.0
+- rerank,0.67,-0.04
+- hybrid (vector only),0.65,-0.06
+- hyde,0.69,-0.02

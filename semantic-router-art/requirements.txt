@@ -1,0 +1,12 @@
+lancedb>=0.9.0
+pyarrow
+pandas
+numpy
+Pillow
+rank-bm25
+sentence-transformers
+fastapi
+uvicorn
+pydantic
+python-dotenv
+rich
