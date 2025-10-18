@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 # (1) Prepare docs and build index
 echo "Hello RAG world" > data/docs/sample.txt
-python -m src.ingest
+python -m src. ingest
 
 # (2) Run the lightweight eval & plot
 python scripts/eval_bench.py --k 10
@@ -40,4 +40,3 @@ python scripts/plot_latency_quality.py
 =======
 # Rag-retriever-bench
 Lean RAG suite: hybrid retrieval, lightweight reranking, optional HyDE + a semantic router demo. Includes eval scripts, ablation and error analysis.”
->>>>>>> a702e29b389945dce3bd8fa508227ac20d4c4e24
