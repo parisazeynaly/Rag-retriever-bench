@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.build/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+.env
+.env.*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Tests / coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# Data / DB / Artifacts
+db/
+**/*.lance
+**/*.lance/*
+**/*.idx
+**/*.arrow
+**/*.parquet
+data/**/raw/
+data/**/tmp/
+out/
+logs/
+*.log
+
+# Project-specific artefacts
+flexible-rag/out/
+flexible-rag/reports/figures/*.png
+semantic-router-art/data/images/generated/
