@@ -37,6 +37,5 @@ python scripts/eval_bench.py --k 10
 python scripts/plot_latency_quality.py
 # artifacts: out/metrics.json, out/quality_latency.png
 ```
-=======
 # Rag-retriever-bench
 Lean RAG suite: hybrid retrieval, lightweight reranking, optional HyDE + a semantic router demo. Includes eval scripts, ablation and error analysis.”
