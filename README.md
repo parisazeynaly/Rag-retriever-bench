@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # RAG Workshop Suite (Monorepo)
 
 This repo contains two complementary projects from the workshop:
