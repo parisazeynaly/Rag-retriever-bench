@@ -1,0 +1,30 @@
+[
+  {
+    "setting": "bm25_only (baseline)",
+    "hit@5": 0.45,
+    "hit@10": 0.58,
+    "ndcg@10": 0.5,
+    "latency_ms": 22
+  },
+  {
+    "setting": "hybrid (vector+bm25)",
+    "hit@5": 0.5,
+    "hit@10": 0.64,
+    "ndcg@10": 0.56,
+    "latency_ms": 27
+  },
+  {
+    "setting": "+rerank (top-30 -> 10)",
+    "hit@5": 0.53,
+    "hit@10": 0.67,
+    "ndcg@10": 0.59,
+    "latency_ms": 36
+  },
+  {
+    "setting": "+hyde (rewrite)",
+    "hit@5": 0.55,
+    "hit@10": 0.69,
+    "ndcg@10": 0.61,
+    "latency_ms": 54
+  }
+]
